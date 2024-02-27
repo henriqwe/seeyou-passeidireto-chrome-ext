@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "SeeYou-passeidireto",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": ["https://www.passeidireto.com/*"],
+      "js": ["Content.js"]
+    }
+  ]
+}
